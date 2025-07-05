@@ -2,32 +2,45 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/contexts/LanguageContext';
+import { Link, useLocation } from 'react-router-dom';
 
 const Header: React.FC = () => {
   const { language, setLanguage, t, dir } = useLanguage();
+  const location = useLocation();
 
   const toggleLanguage = () => {
     setLanguage(language === 'en' ? 'fa' : 'en');
   };
+
+  const isActive = (path: string) => location.pathname === path;
 
   return (
     <header className={`w-full bg-white shadow-sm border-b ${dir === 'rtl' ? 'font-vazir' : 'font-inter'}`}>
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-8 rtl:space-x-reverse">
-            <div className="text-2xl font-bold text-primary">
+            <Link to="/" className="text-2xl font-bold text-primary">
               Universa
-            </div>
+            </Link>
             <nav className="hidden md:flex space-x-6 rtl:space-x-reverse">
-              <a href="#" className="text-gray-600 hover:text-primary transition-colors">
+              <Link 
+                to="/" 
+                className={`transition-colors ${isActive('/') ? 'text-primary font-medium' : 'text-gray-600 hover:text-primary'}`}
+              >
                 {t('nav.search')}
-              </a>
-              <a href="#" className="text-gray-600 hover:text-primary transition-colors">
+              </Link>
+              <Link 
+                to="/dashboard" 
+                className={`transition-colors ${isActive('/dashboard') ? 'text-primary font-medium' : 'text-gray-600 hover:text-primary'}`}
+              >
                 {t('nav.dashboard')}
-              </a>
-              <a href="#" className="text-gray-600 hover:text-primary transition-colors">
+              </Link>
+              <Link 
+                to="/about" 
+                className={`transition-colors ${isActive('/about') ? 'text-primary font-medium' : 'text-gray-600 hover:text-primary'}`}
+              >
                 {t('nav.about')}
-              </a>
+              </Link>
             </nav>
           </div>
           

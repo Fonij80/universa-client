@@ -3,8 +3,9 @@ import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Progress } from '@/components/ui/progress';
-import { Calendar, Flag } from 'lucide-react';
+import { Calendar } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
+import { useUser, SavedProgram } from '@/contexts/UserContext';
 import { toast } from '@/hooks/use-toast';
 
 interface ProgramCardProps {
@@ -29,14 +30,42 @@ const ProgramCard: React.FC<ProgramCardProps> = ({
   field
 }) => {
   const { t, dir } = useLanguage();
-  const [isSaved, setIsSaved] = useState(false);
+  const { savedPrograms, addSavedProgram, removeSavedProgram } = useUser();
+  
+  // Generate a simple ID based on title and university
+  const programId = `${title}-${university}`.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase();
+  const isSaved = savedPrograms.some(p => p.id === programId);
 
   const handleSave = () => {
-    setIsSaved(!isSaved);
-    toast({
-      title: t('celebration.saved'),
-      description: `${title} ${isSaved ? 'removed from' : 'added to'} your saved programs`,
-    });
+    if (isSaved) {
+      removeSavedProgram(programId);
+      toast({
+        title: t('celebration.saved'),
+        description: dir === 'rtl' 
+          ? `${title} از برنامه‌های ذخیره شده حذف شد`
+          : `${title} removed from your saved programs`,
+      });
+    } else {
+      const savedProgram: SavedProgram = {
+        id: programId,
+        title,
+        university,
+        country,
+        countryFlag,
+        funding,
+        deadline,
+        eligibilityScore,
+        field,
+        savedAt: new Date()
+      };
+      addSavedProgram(savedProgram);
+      toast({
+        title: t('celebration.saved'),
+        description: dir === 'rtl' 
+          ? `${title} به برنامه‌های ذخیره شده اضافه شد`
+          : `${title} added to your saved programs`,
+      });
+    }
   };
 
   const getFundingBadge = () => {
@@ -99,7 +128,7 @@ const ProgramCard: React.FC<ProgramCardProps> = ({
           onClick={handleSave}
           className={`flex-1 ${isSaved ? 'bg-success/10 text-success border-success' : ''}`}
         >
-          {isSaved ? '❤️ Saved' : t('program.save')}
+          {isSaved ? (dir === 'rtl' ? '❤️ ذخیره شده' : '❤️ Saved') : t('program.save')}
         </Button>
         <Button size="sm" className="flex-1 bg-primary hover:bg-primary/90">
           {t('program.apply')}
