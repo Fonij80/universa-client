@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "react-router-dom";
+import { Logo } from "../ui/extra";
 
 export const Header = () => {
   const { t, i18n } = useTranslation();
@@ -24,9 +25,7 @@ export const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-8 rtl:space-x-reverse">
-            <Link to="/" className="text-2xl font-bold text-primary">
-              Universa
-            </Link>
+            <Logo />
             <nav className="hidden md:flex space-x-6 rtl:space-x-reverse">
               <Link
                 to="/"
