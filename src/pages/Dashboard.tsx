@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { useLanguage } from "@/contexts/LanguageContext";
+import { useTranslation } from "react-i18next";
 import { useUser } from "@/contexts/UserContext";
 import {
   Card,
@@ -26,7 +25,8 @@ import {
 import { toast } from "@/hooks/use-toast";
 
 export const Dashboard = () => {
-  const { t, dir } = useLanguage();
+  const { t, i18n } = useTranslation();
+  const dir = i18n.dir();
   const {
     profile,
     savedPrograms,

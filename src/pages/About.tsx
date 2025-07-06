@@ -1,4 +1,4 @@
-import { useLanguage } from "@/contexts/LanguageContext";
+import { useTranslation } from "react-i18next";
 import {
   Card,
   CardContent,
@@ -10,8 +10,8 @@ import { Badge } from "@/components/ui/badge";
 import { Globe, Users, Award, Target, Heart, BookOpen } from "lucide-react";
 
 export const About = () => {
-  const { t, dir } = useLanguage();
-
+  const { t, i18n } = useTranslation();
+  const dir = i18n.dir();
   const stats = [
     { icon: Globe, value: "50+", label: "Countries" },
     { icon: BookOpen, value: "10,000+", label: "Programs" },

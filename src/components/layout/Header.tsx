@@ -1,13 +1,16 @@
 import { Button } from "@/components/ui/button";
-import { useLanguage } from "@/contexts/LanguageContext";
+import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "react-router-dom";
 
 export const Header = () => {
-  const { language, setLanguage, t, dir } = useLanguage();
+  const { t, i18n } = useTranslation();
+  const dir = i18n.dir();
   const location = useLocation();
 
   const toggleLanguage = () => {
-    setLanguage(language === "en" ? "fa" : "en");
+    const newLanguage = i18n.language === "en" ? "fa" : "en";
+    i18n.changeLanguage(newLanguage);
+    document.documentElement.dir = newLanguage === "fa" ? "rtl" : "ltr";
   };
 
   const isActive = (path: string) => location.pathname === path;
@@ -65,7 +68,7 @@ export const Header = () => {
               onClick={toggleLanguage}
               className="text-sm"
             >
-              {language === "en" ? "فارسی" : "English"}
+              {i18n.language === "en" ? "فارسی" : "English"}
             </Button>
             <Button className="bg-warning text-warning-foreground hover:bg-warning/90">
               {t("hero.help")}
