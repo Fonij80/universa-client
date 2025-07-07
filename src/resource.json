@@ -35,6 +35,51 @@
       "apply": "Start Application"
     },
     "dashboard": {
+      "overview": {
+        "title": "Saved Programs",
+        "progress": "Average Progress",
+        "deadline": "Upcoming Deadlines"
+      },
+      "programs": {
+        "no_saved": "No saved programs yet. Start exploring from the homepage!",
+        "full_funded": "100% Funded",
+        "deadline": "Deadline:",
+        "removed": "Remove from Saved",
+        "details": "View Details",
+        "toast": {
+          "title": "Program Removed",
+          "description": "has been removed from your saved programs"
+        }
+      },
+      "application": {
+        "no_application": "No applications yet. Save some programs to start tracking your progress!",
+        "complete": "Complete",
+        "due": "Due:",
+        "toast": {
+          "title": "Step Completed! 🎉",
+          "title_updated": "Step Updated",
+          "description": "Great progress! You're one step closer to your goal",
+          "description_updated": "Step status has been updated"
+        }
+      },
+      "profile": {
+        "personal_info": "Personal Information",
+        "name": "Name",
+        "age": "Age",
+        "major": "Major",
+        "gpa": "GPA",
+        "preferred_countries": "Preferred Countries",
+        "budget": "Budget",
+        "experience": "Experience"
+      },
+      "tabs_title": {
+        "overview": "Overview",
+        "saved": "Saved Programs",
+        "applications": "Application Steps",
+        "profile": "Profile"
+      },
+      "welcome_back": "Welcome back,",
+      "description": "Manage your application progress and review your saved programs",
       "welcome": "Welcome back!",
       "progress": "Application Progress",
       "saved": "Saved Programs",
@@ -123,6 +168,51 @@
       "apply": "شروع درخواست"
     },
     "dashboard": {
+      "overview": {
+        "title": "برنامه‌های ذخیره شده",
+        "progress": "متوسط پیشرفت",
+        "deadline": "مهلت‌های نزدیک"
+      },
+      "programs": {
+        "no_saved": "هنوز هیچ برنامه‌ای ذخیره نکرده‌ای. از صفحه اصلی شروع کن!",
+        "full_funded": "کاملاً تأمین مالی شده",
+        "deadline": "مهلت:",
+        "removed": "حذف از ذخیره شده‌ها",
+        "details": "مشاهده جزئیات",
+        "toast": {
+          "title": "برنامه حذف شد",
+          "description": "از برنامه‌های ذخیره شده حذف شد"
+        }
+      },
+      "application": {
+        "no_application": "هنوز هیچ درخواستی نداری. ابتدا برنامه‌هایی را ذخیره کن!",
+        "complete": "تکمیل شده",
+        "due": "مهلت:",
+        "toast": {
+          "title": "مرحله تکمیل شد! 🎉",
+          "title_updated": "مرحله به‌روزرسانی شد",
+          "description": "عالی! یک قدم دیگر به هدفت نزدیک شدی",
+          "description_updated": "وضعیت مرحله به‌روزرسانی شد"
+        }
+      },
+      "profile": {
+        "personal_info": "اطلاعات شخصی",
+        "name": "نام",
+        "age": "سن",
+        "major": "رشته تحصیلی",
+        "gpa": "معدل",
+        "preferred_countries": "کشورهای مورد علاقه",
+        "budget": "بودجه",
+        "experience": "تجربه"
+      },
+      "tabs_title": {
+        "overview": "نمای کلی",
+        "saved": "ذخیره شده",
+        "applications": "مراحل اقدام",
+        "profile": "پروفایل"
+      },
+      "welcome_back": "خوش آمدی،",
+      "description": "پیشرفت درخواست‌هایت را مدیریت کن و برنامه‌های ذخیره شده‌ات را بررسی کن",
       "welcome": "خوش برگشتی!",
       "progress": "پیشرفت درخواست",
       "saved": "برنامه‌های ذخیره شده",
