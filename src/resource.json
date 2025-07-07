@@ -82,6 +82,9 @@
     },
     "footer": {
       "copyright": "© 2025 Universa. All rights reserved."
+    },
+    "not_found": {
+      "back": "Return to Home"
     }
   },
   "fa": {
@@ -167,6 +170,9 @@
     },
     "footer": {
       "copyright": "© ۲۰۲۵ یونیورسا. کلیه حقوق محفوظ است"
+    },
+    "not_found": {
+      "back": "بازگشت به خانه"
     }
   }
 }
