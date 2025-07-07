@@ -60,7 +60,7 @@ const ProgramsShowcase: React.FC = () => {
             {t("search.bestMatch")}
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Personalized recommendations based on your profile and preferences
+            {t("search.caption")}
           </p>
         </div>
 

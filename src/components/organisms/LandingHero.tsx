@@ -5,7 +5,7 @@ import { Search } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { toast } from "@/hooks/use-toast";
 
-const HeroSection: React.FC = () => {
+export const LandingHero = () => {
   const { t, i18n } = useTranslation();
   const dir = i18n.dir();
   const [searchQuery, setSearchQuery] = useState("");
@@ -83,5 +83,3 @@ const HeroSection: React.FC = () => {
     </section>
   );
 };
-
-export default HeroSection;

@@ -1,68 +1,172 @@
 {
   "en": {
-    "nav.search": "Search Programs",
-    "nav.dashboard": "Dashboard",
-    "nav.about": "About",
-    "hero.title": "Find Your Perfect Academic Journey",
-    "hero.subtitle": "Discover Master\"s and PhD programs worldwide with personalized recommendations and funding opportunities",
-    "hero.search": "Search programs, universities, or fields...",
-    "hero.cta": "Start Your Journey",
-    "hero.help": "Need help? Ask UniGuide!",
-    "stats.programs": "Programs Available",
-    "stats.countries": "Countries",
-    "stats.funded": "Fully Funded",
-    "search.filters": "Filters",
-    "search.field": "Field of Study",
-    "search.country": "Country",
-    "search.funding": "Funding Type",
-    "search.deadline": "Application Deadline",
-    "search.bestMatch": "Best Match for You",
-    "program.funded": "100% Funded",
-    "program.partial": "Partial Funding",
-    "program.deadline": "Deadline",
-    "program.eligibility": "Eligibility Score",
-    "program.save": "Save Program",
-    "program.apply": "Start Application",
-    "dashboard.welcome": "Welcome back!",
-    "dashboard.progress": "Application Progress",
-    "dashboard.saved": "Saved Programs",
-    "dashboard.deadlines": "Upcoming Deadlines",
-    "chat.title": "UniGuide Assistant",
-    "chat.placeholder": "Ask me anything about applications...",
-    "celebration.saved": "Program saved! 🎯",
-    "celebration.step": "Great progress! You\"re one step closer! 🎉"
+    "nav": {
+      "search": "Search Programs",
+      "dashboard": "Dashboard",
+      "about": "About"
+    },
+    "hero": {
+      "title": "Find Your Perfect Academic Journey",
+      "subtitle": "Discover Master\"s and PhD programs worldwide with personalized recommendations and funding opportunities",
+      "search": "Search programs, universities, or fields...",
+      "cta": "Start Your Journey",
+      "help": "Need help? Ask UniGuide!"
+    },
+    "stats": {
+      "programs": "Programs Available",
+      "countries": "Countries",
+      "funded": "Fully Funded"
+    },
+    "search": {
+      "filters": "Filters",
+      "field": "Field of Study",
+      "country": "Country",
+      "funding": "Funding Type",
+      "deadline": "Application Deadline",
+      "bestMatch": "Best Match for You",
+      "caption": "Personalized recommendations based on your profile and preferences"
+    },
+    "program": {
+      "funded": "100% Funded",
+      "partial": "Partial Funding",
+      "deadline": "Deadline",
+      "eligibility": "Eligibility Score",
+      "save": "Save Program",
+      "apply": "Start Application"
+    },
+    "dashboard": {
+      "welcome": "Welcome back!",
+      "progress": "Application Progress",
+      "saved": "Saved Programs",
+      "deadlines": "Upcoming Deadlines"
+    },
+    "about": {
+      "hero": {
+        "title": "About Universa",
+        "description": "At Universa, we believe every student should have access to world-class higher education opportunities. Our platform connects students with Master's and PhD programs that match their goals, background, and financial capabilities."
+      },
+      "stats": {
+        "countries": "Countries",
+        "programs": "Programs",
+        "students": "Students Helped",
+        "success": "Success Rate"
+      },
+      "values": {
+        "one": {
+          "title": "Our Mission",
+          "description": "To democratize access to global higher education by connecting ambitious students with life-changing opportunities worldwide."
+        },
+        "two": {
+          "title": "Our Values",
+          "description": "We believe in equality, transparency, and personalized support. Every student deserves the chance to pursue their dreams."
+        },
+        "three": {
+          "title": "Our Team",
+          "description": "A diverse group of educators, technologists, and former international students who understand your journey."
+        }
+      },
+      "story": {
+        "title": "Our Story",
+        "part_one": "Universa was founded in 2023 by a group of former international students who experienced firsthand the challenges of finding and applying to the right academic programs.",
+        "part_two": "We realized that the search and application process was complex, time-consuming, and often uncertain. So we decided to build a platform that would make this process simpler, more transparent, and more accessible.",
+        "part_three": "Today, Universa has helped over 25,000 students worldwide find suitable academic programs and successfully navigate the admission process."
+      }
+    },
+    "chat": {
+      "title": "UniGuide Assistant",
+      "placeholder": "Ask me anything about applications..."
+    },
+    "celebration": {
+      "saved": "Program saved! 🎯",
+      "step": "Great progress! You\"re one step closer! 🎉"
+    },
+    "footer": {
+      "copyright": "© 2025 Universa. All rights reserved."
+    }
   },
   "fa": {
-    "nav.search": "جستجوی برنامه‌ها",
-    "nav.dashboard": "پیشخوان",
-    "nav.about": "درباره ما",
-    "hero.title": "سفر تحصیلی ایده‌آل خود را پیدا کنید",
-    "hero.subtitle": "برنامه‌های کارشناسی ارشد و دکتری را در سراسر جهان با توصیه‌های شخصی‌سازی شده و فرصت‌های تأمین مالی کشف کنید",
-    "hero.search": "جستجوی برنامه‌ها، دانشگاه‌ها یا رشته‌ها...",
-    "hero.cta": "سفر خود را شروع کنید",
-    "hero.help": "کمک نیاز دارید؟ از یونی‌گاید بپرسید!",
-    "stats.programs": "برنامه موجود",
-    "stats.countries": "کشور",
-    "stats.funded": "کاملاً تأمین مالی شده",
-    "search.filters": "فیلترها",
-    "search.field": "رشته تحصیلی",
-    "search.country": "کشور",
-    "search.funding": "نوع تأمین مالی",
-    "search.deadline": "مهلت ارسال درخواست",
-    "search.bestMatch": "بهترین انطباق برای شما",
-    "program.funded": "۱۰۰٪ تأمین مالی شده",
-    "program.partial": "تأمین مالی جزئی",
-    "program.deadline": "مهلت",
-    "program.eligibility": "امتیاز واجد شرایط بودن",
-    "program.save": "ذخیره برنامه",
-    "program.apply": "شروع درخواست",
-    "dashboard.welcome": "خوش برگشتی!",
-    "dashboard.progress": "پیشرفت درخواست",
-    "dashboard.saved": "برنامه‌های ذخیره شده",
-    "dashboard.deadlines": "مهلت‌های پیش رو",
-    "chat.title": "دستیار یونی‌گاید",
-    "chat.placeholder": "هر سوالی در مورد درخواست‌ها داشته باشید...",
-    "celebration.saved": "برنامه ذخیره شد! 🎯",
-    "celebration.step": "پیشرفت عالی! یک قدم به هدف نزدیک‌تر شدی! 🎉"
+    "nav": {
+      "search": "جستجوی برنامه‌ها",
+      "dashboard": "داشبورد",
+      "about": "درباره ما"
+    },
+    "hero": {
+      "title": "سفر تحصیلی ایده‌آل خود را پیدا کنید",
+      "subtitle": "برنامه‌های کارشناسی ارشد و دکتری را در سراسر جهان با توصیه‌های شخصی‌سازی شده و فرصت‌های تأمین مالی کشف کنید",
+      "search": "جستجوی برنامه‌ها، دانشگاه‌ها یا رشته‌ها...",
+      "cta": "سفر خود را شروع کنید",
+      "help": "کمک نیاز دارید؟ از یونی‌گاید بپرسید!"
+    },
+    "stats": {
+      "programs": "برنامه موجود",
+      "countries": "کشور",
+      "funded": "کاملاً تأمین مالی شده"
+    },
+    "search": {
+      "filters": "فیلترها",
+      "field": "رشته تحصیلی",
+      "country": "کشور",
+      "funding": "نوع تأمین مالی",
+      "deadline": "مهلت ارسال درخواست",
+      "bestMatch": "بهترین انطباق برای شما",
+      "caption": "توصیه‌های شخصی‌سازی‌شده بر اساس پروفایل و ترجیحات شما"
+    },
+    "program": {
+      "funded": "۱۰۰٪ تأمین مالی شده",
+      "partial": "تأمین مالی جزئی",
+      "deadline": "مهلت",
+      "eligibility": "امتیاز واجد شرایط بودن",
+      "save": "ذخیره برنامه",
+      "apply": "شروع درخواست"
+    },
+    "dashboard": {
+      "welcome": "خوش برگشتی!",
+      "progress": "پیشرفت درخواست",
+      "saved": "برنامه‌های ذخیره شده",
+      "deadlines": "مهلت‌های پیش رو"
+    },
+    "about": {
+      "hero": {
+        "title": "درباره یونیورسا",
+        "description": "ما در یونیورسا به این باور داریم که هر دانش‌آموز باید به فرصت‌های آموزش عالی در سراسر جهان دسترسی داشته باشد. پلتفرم ما دانشجویان را با برنامه‌های کارشناسی ارشد و دکتری متناسب با اهداف و امکاناتشان متصل می‌کند."
+      },
+      "stats": {
+        "countries": "کشورها",
+        "programs": "برنامه‌ها",
+        "students": "دانشجویان",
+        "success": "نرخ موفقیت"
+      },
+      "values": {
+        "one": {
+          "title": "ماموریت ما",
+          "description": "دموکراتیک کردن دسترسی به آموزش عالی جهانی از طریق اتصال دانشجویان جاه‌طلب با فرصت‌های تغییردهنده زندگی در سراسر جهان."
+        },
+        "two": {
+          "title": "ارزش‌های ما",
+          "description": "ما به برابری، شفافیت و پشتیبانی شخصی‌سازی شده اعتقاد داریم. هر دانش‌آموز شایسته فرصت دنبال کردن رؤیاهایش است."
+        },
+        "three": {
+          "title": "تیم ما",
+          "description": "گروهی متنوع از مربیان، فناوران و دانشجویان بین‌المللی سابق که سفر شما را درک می‌کنند."
+        }
+      },
+      "story": {
+        "title": "داستان ما",
+        "part_one": "یونیورسا در سال ۲۰۲۳ توسط گروهی از دانشجویان بین‌المللی سابق تأسیس شد که خود تجربه چالش‌های یافتن و اقدام برای برنامه‌های تحصیلی مناسب را داشتند.",
+        "part_two": "ما متوجه شدیم که فرآیند جستجو و اقدام پیچیده، زمان‌بر و اغلب نامطمئن است. بنابراین تصمیم گرفتیم پلتفرمی بسازیم که این فرآیند را ساده‌تر، شفاف‌تر و قابل دسترس‌تر کند.",
+        "part_three": "امروز، یونیورسا به بیش از ۲۵ هزار دانشجو در سراسر جهان کمک کرده است تا برنامه‌های آموزشی مناسب پیدا کنند و مراحل پذیرش را با موفقیت طی کنند."
+      }
+    },
+    "chat": {
+      "title": "دستیار یونی‌گاید",
+      "placeholder": "هر سوالی در مورد درخواست‌ها داشته باشید..."
+    },
+    "celebration": {
+      "saved": "برنامه ذخیره شد! 🎯",
+      "step": "پیشرفت عالی! یک قدم به هدف نزدیک‌تر شدی! 🎉"
+    },
+    "footer": {
+      "copyright": "© ۲۰۲۵ یونیورسا. کلیه حقوق محفوظ است"
+    }
   }
 }
