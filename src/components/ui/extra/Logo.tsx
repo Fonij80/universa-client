@@ -1,4 +1,4 @@
-import logoImage from "@/assets/images/Universa_Logo.png";
+import logoImage from "@/assets/images/universa.png";
 import { NavLink } from "react-router-dom";
 
 export const Logo = () => {
