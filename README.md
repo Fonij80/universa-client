@@ -1,73 +1,104 @@
-# Welcome to your Lovable project
+# 🌌 Universa — Find Your Perfect Academic Journey
 
-## Project info
+**Universa** is a modern web platform designed to help students to find universities based on their resume and budget and automates your academic apply process.
 
-**URL**: https://lovable.dev/projects/87423a53-9766-4f9f-86fc-188d0eb10818
+## ✨ Features
+- 📚 Explore curated learning paths
+- 🧠 Learn by doing (real mini-projects)
+- 🔍 Simple, beautiful UI
+- 📱 Fully responsive design
 
-## How can I edit this code?
+## 🛠 Tech Stack
+- **Frontend**: React + Vite
+- **Styling**: Tailwind CSS
+- **State Management**: React Hooks & Context
+- **Icons**: Lucide
+- **Hosting**: Vercel or Lovable.dev
 
-There are several ways of editing your application.
+## 📦 Getting Started
 
-**Use Lovable**
+```bash
+git clone https://github.com/yourusername/universa-frontend.git
+cd universa-frontend
+npm install
+npm run dev
+````
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/87423a53-9766-4f9f-86fc-188d0eb10818) and start prompting.
+## 🗂 Project Structure
 
-Changes made via Lovable will be committed automatically to this repo.
+```
+src/
+│
+├── components/ # Shared UI components
+├── pages/ # Route-based pages (Home, Courses, etc.)
+├── assets/ # Logos, icons, images
+├── utils/ # Utility functions
+└── App.jsx # Main app entry
+```
 
-**Use your preferred IDE**
+## 🚀 Live Preview
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Coming soon on [universa.lovable.dev](https://universa.lovable.dev)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🙋‍♀️ Created by
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Built by [Foroozan Iraji](https://www.linkedin.com/in/foroozan-iraji)
+🔗 [GitHub](https://github.com/Fonij80) | 🧠 [Fonij](https://t.me/Fonij2002)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 🌌 یونی‌ورسا — دروازه‌ای به یادگیری عملی
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+**Universa** یک پلتفرم آموزشی مدرن و مینیماله که با هدف یادگیری عملی و مسیرهای آموزشی کاربردی طراحی شده. اگه دوست داری با پروژه‌های واقعی و به دور از حاشیه، مهارت‌هاتو تقویت کنی، یونی‌ورسا جای توئه.
+
+## ✨ امکانات
+
+* 📚 مسیرهای یادگیری منتخب و هدفمند
+* 🧠 تمرکز بر یادگیری عملی با پروژه‌های واقعی
+* 🔍 رابط کاربری مینیمال و تمیز
+* 📱 طراحی کاملاً ریسپانسیو برای موبایل و دسکتاپ
+
+## 🛠 تکنولوژی‌های استفاده‌شده
+
+* **فرانت‌اند**: React + Vite
+* **استایل‌دهی**: Tailwind CSS
+* **مدیریت وضعیت**: React Hooks و Context
+* **آیکون‌ها**: Lucide
+* **هاستینگ**: Vercel یا Lovable.dev
+
+## 📦 شروع به کار
+
+```bash
+git clone https://github.com/yourusername/universa-frontend.git
+cd universa-frontend
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## 🗂 ساختار پروژه
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+src/
+│
+├── components/ # کامپوننت‌های قابل استفاده مجدد
+├── pages/ # صفحات اصلی مثل Home و Courses
+├── assets/ # تصاویر، لوگو، آیکون‌ها
+├── utils/ # توابع کمکی
+└── App.jsx # ورودی اصلی اپلیکیشن
+```
 
-**Use GitHub Codespaces**
+## 🚀 پیش‌نمایش زنده
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+به‌زودی روی [universa.lovable.dev](https://universa.lovable.dev)
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 🙋‍♀️ سازنده
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+ساخته شده توسط [فروزان ایرجی](https://www.linkedin.com/in/foroozan-iraji) —
+🔗 [GitHub](https://github.com/Fonij80) | 🧠 [Fonij](https://t.me/Fonij2002)
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/87423a53-9766-4f9f-86fc-188d0eb10818) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
